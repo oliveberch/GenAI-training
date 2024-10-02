@@ -1,0 +1,104 @@
+# Full stack overview
+
+- It is entire set of computer system application.
+- comprises of front end & back end technologies
+
+*Front end* is something end user views and interact with. FE platform are made via - django & tkinter.
+
+
+*Back end* comprises of servers, databases and other internal architecture that drives the application. 
+
+# AGILE
+
+Agile is a project management and product development approach emphasizing flexibility, collaboration, and customer satisfaction. It prioritizes iterative progress, adaptability to change, and close collaboration between cross-functional teams. Key principles include:
+
+### Individuals and Interactions over Processes and Tools
+   - Emphasizes effective communication and collaboration among team members.
+
+### Working Software over Comprehensive Documentation
+   - Prioritizes delivering a functional product over extensive documentation.
+
+### Customer Collaboration over Contract Negotiation
+   - Encourages continuous collaboration with customers to understand and meet their evolving needs.
+
+### Responding to Change over Following a Plan
+   - Values the ability to adapt to changing requirements over strictly adhering to a fixed plan.
+
+### Agile Methodologies
+
+- *Scrum:* An iterative and incremental agile framework.
+- *Kanban:* A visual management method optimizing workflow efficiency.
+- *Extreme Programming (XP):* Emphasizes frequent releases and continuous testing.
+
+## Key Concepts
+
+- *User Stories:* Short descriptions of features from an end user's perspective.
+- *Sprints:* Fixed time periods for completing a specific set of work.
+- *Daily Stand-ups:* Brief daily meetings for progress updates.
+- *Retrospectives:* Meetings at the end of a sprint to reflect and improve.
+
+## Benefits of Agile
+
+- Flexibility, allowing changes in project requirements.
+- Customer satisfaction through regular feedback.
+- Collaboration in a transparent work environment.
+- Early delivery, prioritizing a minimum viable product quickly.
+
+
+# Interprester vs Complier
+
+Interpreter translates code during execution from programming language to machine code one line at a time.
+
+Compiler translates code during execution from programming language to machine code all at a time.
+
+# REPL Jupyter
+
+Repl.it or REPL (Read-Evaluate-Print Loop) is an online integrated development environment (IDE). Simply put programming environment in a browser.
+
+Jupyter Notebook is an open-source web application to create and share documents that contain live code, equations, and visualizations.
+
+# Git Fundamentals
+
+Primarily consider GitHub as your personal cloud to store code. Well, not that personal, it gets social and you can share what you store on your cloud. To navigate around this cloud storage of yours and organize it you use git commands, much like assembly code or Visual basic.
+
+
+git init : Initialize a new Git repository.
+
+git clone <repository URL>: Clone a remote repository to your local machine.
+
+git add <file>: Stage changes for the next commit.
+
+git commit -m "Message": Commit staged changes with a descriptive message.
+
+git status: Check the status of your working directory and staged files.
+
+git log: View commit history.
+
+git branch: List all branches in the repository.
+
+git branch <branch_name>: Create a new branch.
+
+git checkout <branch_name>: Switch to a different branch.
+
+git merge <branch_name>: Merge changes from one branch into the current branch.
+
+git pull: Fetch changes from the remote repository and merge them into the current branch.
+
+git push: Push your local changes to the remote repository.
+
+git remote -v: List all remote repositories linked to your local repository.
+
+git fetch: Download changes from a remote repository without merging.
+
+git diff: Show the differences between the working directory and the last commit. 
+
+git reset <file>: Unstage changes for a specific file.
+
+git reset --hard <commit>: Reset your working directory to a specific commit, discarding changes.
+
+git stash: Temporarily save changes that are not ready to be committed.
+
+git tag <tag_name>: Create a new tag for a specific commit.
+
+git checkout <commit>: Switch to a specific commit for inspection or creating a new branch. 
+

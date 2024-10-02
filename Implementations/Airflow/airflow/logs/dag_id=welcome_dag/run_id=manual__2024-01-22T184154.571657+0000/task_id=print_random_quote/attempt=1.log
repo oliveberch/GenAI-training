@@ -1,0 +1,14 @@
+[2024-01-22T18:42:36.076+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: welcome_dag.print_random_quote manual__2024-01-22T18:41:54.571657+00:00 [queued]>
+[2024-01-22T18:42:36.097+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: welcome_dag.print_random_quote manual__2024-01-22T18:41:54.571657+00:00 [queued]>
+[2024-01-22T18:42:36.098+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2024-01-22T18:42:36.261+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): print_random_quote> on 2024-01-22 18:41:54.571657+00:00
+[2024-01-22T18:42:36.269+0000] {standard_task_runner.py:60} INFO - Started process 107 to run task
+[2024-01-22T18:42:36.272+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'welcome_dag', 'print_random_quote', 'manual__2024-01-22T18:41:54.571657+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/welcome_dag.py', '--cfg-path', '/tmp/tmppv4cz9c9']
+[2024-01-22T18:42:36.275+0000] {standard_task_runner.py:88} INFO - Job 5: Subtask print_random_quote
+[2024-01-22T18:42:36.553+0000] {task_command.py:423} INFO - Running <TaskInstance: welcome_dag.print_random_quote manual__2024-01-22T18:41:54.571657+00:00 [running]> on host d980a45eeea5
+[2024-01-22T18:42:37.036+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='welcome_dag' AIRFLOW_CTX_TASK_ID='print_random_quote' AIRFLOW_CTX_EXECUTION_DATE='2024-01-22T18:41:54.571657+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-22T18:41:54.571657+00:00'
+[2024-01-22T18:42:38.496+0000] {logging_mixin.py:188} INFO - Quote of the day: "But at any rate, the point is that God is what nobody admits to being, and everybody really is."
+[2024-01-22T18:42:38.498+0000] {python.py:201} INFO - Done. Returned value was: None
+[2024-01-22T18:42:38.546+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=welcome_dag, task_id=print_random_quote, execution_date=20240122T184154, start_date=20240122T184236, end_date=20240122T184238
+[2024-01-22T18:42:38.819+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-01-22T18:42:38.854+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

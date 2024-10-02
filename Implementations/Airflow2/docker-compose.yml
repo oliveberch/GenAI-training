@@ -1,0 +1,9 @@
+version: '3'
+services:
+  sleek-airflow:
+    image: workspace2:latest
+    volumes:
+      - ./airflow:/opt/airflow
+    ports:
+      - "8081:8081"
+    command: airflow standalone
