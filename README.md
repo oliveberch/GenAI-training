@@ -1,0 +1,1 @@
+Sharing resources and notes from my time as a trainee in Generative AI technologies. The next part of the same training could be found in this [repo](https://github.com/krishnagopika/trng-1855/tree/main).
